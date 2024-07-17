@@ -78,6 +78,7 @@ export const updateDocument = (req: any, res: any) => {
   });
 }
 
+// delete the document
 export const deleteDocument = (req: any, res: any) => {
   if (!req.isUserAuth) {
     res.status(401).send({ message: UNAUTHORIZED_ACCESS });

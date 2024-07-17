@@ -80,6 +80,7 @@ const updateDocument = (req, res) => {
     });
 };
 exports.updateDocument = updateDocument;
+// delete the document
 const deleteDocument = (req, res) => {
     var _a;
     if (!req.isUserAuth) {
